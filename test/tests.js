@@ -14,7 +14,7 @@ test('Renders an Instrument!', function(assert) {
         cost: 125.00
     };
 
-    const expected = '<li class="drums" title="Get loud and throw down with this drum set, so dope!"><h3>Drum Set</h3><img src="../assets/images/drumkit.jpeg"><p class="price">$200.00<button>Buy</button></p></li>';
+    const expected = '<li class="drums" title="Get loud and throw down with this drum set, so dope!"><h3>Drum Set</h3><img src="../assets/images/drumkit.jpeg/" alt="Drum Set image"><p class="price">$200.00<button>Buy</button></p></li>';
 
     
     
